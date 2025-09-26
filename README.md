@@ -70,7 +70,6 @@
     ```
     2. Al abrir la consola de desarrollador del navegador, NO deben aparecer mensajes de error 404 (es decir, que las librerías de JavaScript se cargaron correctamente).
        
-       <img width="395" height="207" alt="image" src="https://github.com/user-attachments/assets/56ae70cc-c2e4-4638-b3d6-ff1ee133a3e9" />
 
 
 ## Front-End - Lógica
