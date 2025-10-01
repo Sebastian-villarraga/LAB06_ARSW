@@ -7,9 +7,7 @@ import edu.eci.arsw.blueprints.model.Blueprint;
 /**
  * Interface to filter blueprints
  * 
- * @author Angie Mojica
- * @author Daniel Santanilla
- */
+ 
 public interface BlueprintsFilter {
     
     /**
