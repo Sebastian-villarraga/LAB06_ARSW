@@ -9,10 +9,8 @@ import edu.eci.arsw.blueprints.model.Blueprint;
 import edu.eci.arsw.blueprints.model.Point;
 import edu.eci.arsw.blueprints.persistence.BlueprintsFilter;
 
-/**
- * @author Angie Mojica
- * @author Daniel Santanilla
- */
+
+
 @Component
 public class RedundancyBlueprintFilter implements BlueprintsFilter {
     
