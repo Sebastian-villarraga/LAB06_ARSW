@@ -27,8 +27,7 @@ import edu.eci.arsw.blueprints.services.BlueprintsServices;
 /**
  *
  * @author hcadavid
- * @author Angie Mojica
- * @author Daniel Santanilla
+ 
  */
 @RestController
 @RequestMapping(value = "/blueprints")
