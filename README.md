@@ -128,7 +128,12 @@ Se agregaron las referencias a las librerías de jQuery, Bootstrap y a la hoja d
    };
   ```
 10. Verifique que la aplicación ahora, además de mostrar el listado de los planos de un autor, permita seleccionar uno de éstos y graficarlo. Para esto, haga que en las filas generadas para el punto 5 incluyan en la última columna un botón con su evento de clic asociado a la operación hecha anteriormente (enviándo como parámetro los nombres correspondientes).
-
+ ```java
+   var button = document.createElement("button");
+   button.addEventListener("click", function () {
+       app.getBlueprintsByName(blueprint.name);
+   });  
+  ```
 11. Verifique que la aplicación ahora permita: consultar los planos de un auto y graficar aquel que se seleccione.
 
 12. Una vez funcione la aplicación (sólo front-end), haga un módulo (llámelo 'apiclient') que tenga las mismas operaciones del 'apimock', pero que para las mismas use datos reales consultados del API REST. Para lo anterior revise [cómo hacer peticiones GET con jQuery](https://api.jquery.com/jquery.get/), y cómo se maneja el esquema de _callbacks_ en este contexto.
