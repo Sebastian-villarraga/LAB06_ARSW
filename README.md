@@ -50,18 +50,17 @@
 
 3. En el elemento \<head\> de la página, agregue las referencia a las librerías de jQuery, Bootstrap y a la hoja de estilos de Bootstrap. 
     ```html
-    <head>
-        <title>Blueprints</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <head>
+      <title>Blueprints</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <script src="/webjars/jquery/jquery.min.js"></script>
-        <script src="/webjars/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <link rel="stylesheet"
-          href="/webjars/bootstrap/3.3.7/css/bootstrap.min.css" />
-    </head>
+      <script src="/webjars/jquery/jquery.min.js"></script>
+      <script src="/webjars/bootstrap/5.3.2/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="/webjars/bootstrap/5.3.2/css/bootstrap.min.css" />
+   </head>
     ```
-
+Se agregaron las referencias a las librerías de jQuery, Bootstrap y a la hoja de estilos de Bootstrap.
 
 4. Suba la aplicación (mvn spring-boot:run), y rectifique:
     1. Que la página sea accesible desde:
@@ -70,6 +69,7 @@
     ```
     2. Al abrir la consola de desarrollador del navegador, NO deben aparecer mensajes de error 404 (es decir, que las librerías de JavaScript se cargaron correctamente).
        
+<img width="1919" height="286" alt="image" src="https://github.com/user-attachments/assets/73a0d53a-ee8f-47e2-adce-6dcff730f0df" />
 
 
 ## Front-End - Lógica
