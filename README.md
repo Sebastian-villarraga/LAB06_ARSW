@@ -112,6 +112,7 @@ Se agregaron las referencias a las librerías de jQuery, Bootstrap y a la hoja d
    <button type="button" onclick="app.getBlueprintsByNameAndAuthor()">Get blueprints</button>
   ```
 7. Verifique el funcionamiento de la aplicación. Inicie el servidor, abra la aplicación HTML5/JavaScript, y rectifique que al ingresar un usuario existente, se cargue el listado del mismo.
+<img width="935" height="1021" alt="image" src="https://github.com/user-attachments/assets/a108ee02-c5a9-4ff2-bad1-480d4540d225" />
 
 ## Para la próxima semana
 
