@@ -81,7 +81,11 @@ Se agregaron las referencias a las librerías de jQuery, Bootstrap y a la hoja d
     })();
  ```
 2. Copie el módulo provisto (apimock.js) en la misma ruta del módulo antes creado. En éste agréguele más planos (con más puntos) a los autores 'quemados' en el código.
+```text
+    Se añadieron mas puntos a los planos de los autores 'quemados' en el código.
 
+
+ ```
 3. Agregue la importación de los dos nuevos módulos a la página HTML (después de las importaciones de las librerías de jQuery y Bootstrap):
     ```html
     <script src="js/apimock.js"></script>
