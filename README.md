@@ -108,7 +108,9 @@ Se agregaron las referencias a las librerías de jQuery, Bootstrap y a la hoja d
     * Sobre cualquiera de los dos listados (el original, o el transformado mediante 'map'), aplique un 'reduce' que calcule el número de puntos. Con este valor, use jQuery para actualizar el campo correspondiente dentro del DOM.
 
 6. Asocie la operación antes creada (la de app.js) al evento 'on-click' del botón de consulta de la página.
-
+ ```html
+   <button type="button" onclick="app.getBlueprintsByNameAndAuthor()">Get blueprints</button>
+  ```
 7. Verifique el funcionamiento de la aplicación. Inicie el servidor, abra la aplicación HTML5/JavaScript, y rectifique que al ingresar un usuario existente, se cargue el listado del mismo.
 
 ## Para la próxima semana
