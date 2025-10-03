@@ -144,6 +144,8 @@ Se agregaron las referencias a las librerías de jQuery, Bootstrap y a la hoja d
    })(); 
   ```
 Se creó el módulo apiclient.js con las mismas operaciones del apimock.js, pero que para las mismas usa datos reales consultados del API REST.
+
+
 13. Modifique el código de app.js de manera que sea posible cambiar entre el 'apimock' y el 'apiclient' con sólo una línea de código.
 ```java
    var useMockData = true;
