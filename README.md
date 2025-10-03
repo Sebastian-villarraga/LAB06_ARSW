@@ -135,6 +135,7 @@ Se agregaron las referencias a las librerías de jQuery, Bootstrap y a la hoja d
    });  
   ```
 11. Verifique que la aplicación ahora permita: consultar los planos de un auto y graficar aquel que se seleccione.
+<img width="1919" height="949" alt="image" src="https://github.com/user-attachments/assets/24a42ecf-050c-4c90-990d-13d5ac025444" />
 
 12. Una vez funcione la aplicación (sólo front-end), haga un módulo (llámelo 'apiclient') que tenga las mismas operaciones del 'apimock', pero que para las mismas use datos reales consultados del API REST. Para lo anterior revise [cómo hacer peticiones GET con jQuery](https://api.jquery.com/jquery.get/), y cómo se maneja el esquema de _callbacks_ en este contexto.
 
