@@ -138,5 +138,14 @@ Se agregaron las referencias a las librerías de jQuery, Bootstrap y a la hoja d
 <img width="1919" height="949" alt="image" src="https://github.com/user-attachments/assets/24a42ecf-050c-4c90-990d-13d5ac025444" />
 
 12. Una vez funcione la aplicación (sólo front-end), haga un módulo (llámelo 'apiclient') que tenga las mismas operaciones del 'apimock', pero que para las mismas use datos reales consultados del API REST. Para lo anterior revise [cómo hacer peticiones GET con jQuery](https://api.jquery.com/jquery.get/), y cómo se maneja el esquema de _callbacks_ en este contexto.
-
+```java
+   var apiclient = (function () {
+       ...
+   })(); 
+  ```
+Se creó el módulo apiclient.js con las mismas operaciones del apimock.js, pero que para las mismas usa datos reales consultados del API REST.
 13. Modifique el código de app.js de manera que sea posible cambiar entre el 'apimock' y el 'apiclient' con sólo una línea de código.
+```java
+   var useMockData = true;
+   var api = useMockData ? apimock : apiclient;
+  ```
