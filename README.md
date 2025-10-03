@@ -151,4 +151,3 @@ Se creó el módulo apiclient.js con las mismas operaciones del apimock.js, pero
    var useMockData = true;
    var api = useMockData ? apimock : apiclient;
   ```
-14.Revise la documentación y ejemplos de los estilos de Bootstrap (ya incluidos en el ejercicio), agregue los elementos necesarios a la página para que sea más vistosa, y más cercana al mock dado al inicio del enunciado.
